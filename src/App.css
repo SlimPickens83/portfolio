@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+body {
+  background-image: url("../src/assets/background.jpeg");
+}
+
 .MuiToolbar-root {
   display: flex;
   justify-content: space-between;
@@ -24,7 +28,26 @@
   flex-direction: column;
 }
 
-#splashMain {
-  min-height: 90vh;
-  padding: 24px;
+#main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0 48px 0;
+}
+
+#display {
+  margin-bottom: 96px;
+}
+
+#tech {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
 }
