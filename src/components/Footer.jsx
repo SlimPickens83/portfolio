@@ -12,7 +12,7 @@ function Footer() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <footer>
           <Typography variant="h5" style={{ color: colors.primary }}>
-            <Link to="/">Project</Link> | <Link to="/about">Resume</Link> | <Link to="/about">About</Link>
+            <Link to="/">Project</Link> | <Link to="/about">Resume</Link>
           </Typography>
           <Typography variant="h6" style={{ color: colors.primary }}>
             Images via <a href="https://www.freepik.com/">Freepik</a>

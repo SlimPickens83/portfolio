@@ -25,7 +25,7 @@ function Display() {
               About Me
             </Typography>
             <Typography variant="h2" style={{ color: `${colors.primary}`, width: 664 }}>
-              I am a self-taught web developer with both front and backend expertise. I started learning last year via the Odin Project and have also utilized courses hosted via Udemy. In addition to coding, I am a stay at home husband and dad, keeping up the house and caring for our preschool aged kids. When I'm not otherwise occupied I enjoy drawing and painting, playing videogames, and watching movies.
+              I am a self-taught web developer with both front and backend expertise. I started learning last year via the Odin Project and have also completed courses through Udemy. In addition to coding, I am a stay at home husband and dad, keeping up the house and caring for our preschool aged kids. When I'm not otherwise occupied I enjoy drawing and painting, playing videogames, and watching movies.
             </Typography>
           </Col>
         </Row>
@@ -55,7 +55,7 @@ function Display() {
               Resume
             </Typography>
             <Typography variant="h2" style={{ color: `${colors.primary}`, width: 664 }}>
-              The picture to the left is a link to my professional resume. I have a professional background and customer service and an academic background in history and religion. My journey to coding has not been a straight line but I have thoroughly enjoyed growing my skills and am excited to put them to use for many years to come.
+              The picture to the left is a link to my professional resume. I have a professional background in customer service and an academic background in history and religion. My journey to coding has not been a straight line but I have thoroughly enjoyed growing my skills and am excited to put them to use for many years to come.
             </Typography>
           </Col>
         </Row>
