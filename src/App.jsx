@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./App.css"
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 // Components
 import HomeGuest from "./components/HomeGuest"
