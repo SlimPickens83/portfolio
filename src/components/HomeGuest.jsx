@@ -67,10 +67,10 @@ function HomeGuest(props) {
       <Toolbar />
       <Container id="main">
         <div>
-          <Typography variant="h1" color={colors.primary} style={{ fontWeight: "bold" }}>
+          <Typography variant="h1" color={colors.primary} style={{ fontWeight: "bold", marginTop: 56 }}>
             Mike Radcliffe
           </Typography>
-          <Typography variant="h2" style={{ marginBottom: 128 }}>
+          <Typography variant="h2" style={{ marginBottom: 100 }}>
             Full Stack Web Developer
           </Typography>
         </div>
