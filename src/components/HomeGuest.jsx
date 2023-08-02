@@ -44,7 +44,7 @@ ScrollHide.propTypes = {
 
 function HomeGuest(props) {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} breakpoints={["sm", "md", "lg", "xl"]} minBreakpaoint="xs">
       <CssBaseline />
       <ScrollHide {...props}>
         <AppBar>
@@ -66,7 +66,7 @@ function HomeGuest(props) {
       </ScrollHide>
       <Toolbar />
       <Container id="main">
-        <div>
+        <div style={{ marginLeft: 48 }}>
           <Typography variant="h1" color={colors.primary} style={{ fontWeight: "bold", marginTop: 56 }}>
             Mike Radcliffe
           </Typography>
