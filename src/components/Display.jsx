@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography"
 import { colors, theme } from "../theme"
 import Image from "react-bootstrap/Image"
 import Row from "react-bootstrap/Row"
-import coder from "../assets/coder.jpeg"
+import portrait from "../assets/IMG_7880.jpeg"
 import resume from "../assets/resumePic.png"
 import website from "../assets/aaMain.png"
 import pdf from "../assets/resume_RadcliffeM.pdf"
@@ -18,7 +18,7 @@ function Display() {
       <Container id="display">
         <Row className="displayRow" style={{ gap: 64, marginBottom: 120 }}>
           <Col className="imageColumn">
-            <Image src={coder} fluid style={{ border: `2px solid ${colors.grey}`, borderRadius: "4px" }} />
+            <Image src={portrait} fluid style={{ border: `2px solid ${colors.grey}`, borderRadius: "4px" }} />
           </Col>
           <Col className="textColumn">
             <Typography variant="h2" style={{ fontWeight: "bold", color: `${colors.primary}`, marginBottom: 24 }}>
