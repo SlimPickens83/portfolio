@@ -55,7 +55,7 @@ function Display() {
               Resume
             </Typography>
             <Typography variant="h2" style={{ color: `${colors.primary}`, width: 664 }}>
-              The picture to the left is a link to my professional resume. I have a professional background in customer service and an academic background in history and religion. My journey to coding has not been a straight line but I have thoroughly enjoyed growing my skills and am excited to put them to use for many years to come.
+              I have a professional background in customer service and an academic background in history and religion. My journey to coding has not been a straight line but I have thoroughly enjoyed growing my skills and am excited to put them to use for many years to come.
             </Typography>
           </Col>
         </Row>
