@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import { colors, theme } from "../theme"
 
@@ -9,7 +9,6 @@ import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
 import CssBaseline from "@mui/material/CssBaseline"
 import useScrollTrigger from "@mui/material/useScrollTrigger"
-import Box from "@mui/material/Box"
 import Container from "@mui/material/Container"
 import Slide from "@mui/material/Slide"
 
@@ -22,7 +21,6 @@ import pdf from "../assets/resume_RadcliffeM.pdf"
 
 // components
 import Display from "./Display"
-import Tech from "./Tech"
 import Footer from "./Footer"
 
 function ScrollHide(props) {
