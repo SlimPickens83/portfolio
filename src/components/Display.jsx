@@ -18,7 +18,7 @@ function Display() {
       <Container id="display">
         <Row className="displayRow" style={{ gap: 64, marginBottom: 120 }}>
           <Col className="imageColumn">
-            <Image src={portrait} fluid style={{ border: `2px solid ${colors.grey}`, borderRadius: "4px" }} />
+            <Image src={portrait} fluid style={{ aspectRatio: 3 / 4, border: `2px solid ${colors.grey}`, borderRadius: "4px" }} />
           </Col>
           <Col className="textColumn">
             <Typography variant="h2" style={{ fontWeight: "bold", color: `${colors.primary}`, marginBottom: 24 }}>

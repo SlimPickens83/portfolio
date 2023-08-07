@@ -68,7 +68,7 @@ function HomeGuest(props) {
           <Typography variant="h1" color={colors.primary} style={{ fontWeight: "bold", marginTop: 56 }}>
             Mike Radcliffe
           </Typography>
-          <Typography variant="h2" style={{ marginBottom: 100 }}>
+          <Typography variant="h2" style={{ marginBottom: 72 }}>
             Full Stack Web Developer
           </Typography>
         </div>
